@@ -1,6 +1,9 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Native Key Bindings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+if !exists('g:vscode')
+    finish
+endif
 
 noremap <Leader> <Plug>(easymotion-prefix)
 noremap <Leader>jj <Plug>(easymotion-bd-f)
